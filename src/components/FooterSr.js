@@ -8,7 +8,7 @@ function FooterSr() {
         <div>
           <h3 className="text-lg font-semibold mb-4">Explore</h3>
           <ul className="space-y-2 text-sm">
-            <li>
+            {/* <li>
               <a
                 href="/how-to-reach"
                 // target="_blank"
@@ -17,7 +17,7 @@ function FooterSr() {
               >
                 How to reach
               </a>
-            </li>
+            </li> */}
             <li>
               <a
                 href="/about-us"
@@ -109,7 +109,7 @@ function FooterSr() {
               rel="noopener noreferrer"
               className="hover:text-green-400"
             >
-              info@example.org
+              shreeshivshambhomandir@gmail.com
             </a>
           </p>
           <p className="text-sm mt-2">Phone: +91-123-456-7890</p>
