@@ -120,6 +120,8 @@ function FooterSr() {
       <div className="border-t border-gray-700 mt-8 py-4">
         <p className="text-center text-sm text-gray-400">
           © {new Date().getFullYear()} Bhushan Date. All rights reserved.
+          <br />
+          श्रद्धा सेवा संस्कृती
         </p>
       </div>
     </footer>
