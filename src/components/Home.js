@@ -118,15 +118,25 @@ function Home() {
         ref={sliderRef}
         // className="keen-slider"
         // className="keen-slider mt-8 max-w-4xl mx-auto px-4 md:px-0 h-[400px]"
-        className="keen-slider mt-8 max-w-4xl mx-auto px-4 md:px-0 h-[350px]"
+        // className="keen-slider mt-8 max-w-4xl mx-auto px-4 md:px-0 h-[350px]" //THIS
+        // className="keen-slider mt-8 max-w-4xl mx-auto px-4 md:px-0" //THIS 1
+        // className="keen-slider mt-8 max-w-4xl mx-auto px-4 md:px-0"  //THIS mostly
+        className="keen-slider mt-8 max-w-full md:max-w-3xl mx-auto px-4"
       >
         {slides.map((img, index) => (
-          <div key={index} className="keen-slider__slide">
+          <div
+            key={index}
+            // className="keen-slider__slide" //THIS
+            className="keen-slider__slide flex items-center justify-center h-[180px] sm:h-[220px] md:h-[300px]" //THIS 1
+            // className="keen-slider__slide"
+          >
             <img
               src={img}
               alt={`slide-${index}`}
               // className="w-full h-64 object-contain bg-white rounded-lg"
-              className="w-full max-h-full object-cover bg-white rounded-lg"
+              // className="w-full max-h-full object-cover bg-white rounded-lg" //THIS
+              className="w-full h-full object bg-white rounded-lg"
+              // className="absolute inset-0 w-full h-full object-contain bg-white rounded-lg"
             />
           </div>
         ))}
@@ -143,7 +153,7 @@ function Home() {
       <Vision />
 
       {/* Mission Section */}
-      <Mission />
+      {/* <Mission /> */}
 
       {/* Temple Info Section */}
       <TempleInfo />

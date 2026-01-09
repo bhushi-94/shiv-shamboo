@@ -1,7 +1,7 @@
 import Header from "./Header";
 import HeroImage from "./HeroImage";
 import FooterSr from "./FooterSr";
-import QRCodeImg from "../images/sample.jpg";
+import QRCodeImg from "../images/scanner.jpg";
 
 function DonatePage() {
   return (

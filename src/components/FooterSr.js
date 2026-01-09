@@ -8,16 +8,16 @@ function FooterSr() {
         <div>
           <h3 className="text-lg font-semibold mb-4">Explore</h3>
           <ul className="space-y-2 text-sm">
-            {/* <li>
+            <li>
               <a
-                href="/how-to-reach"
+                href="/"
                 // target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-green-400"
               >
-                How to reach
+                मुखपृष्ठ
               </a>
-            </li> */}
+            </li>
             <li>
               <a
                 href="/about-us"
@@ -25,7 +25,7 @@ function FooterSr() {
                 rel="noopener noreferrer"
                 className="hover:text-green-400"
               >
-                About Us
+                आमच्याविषयी
               </a>
             </li>
             <li>
@@ -35,7 +35,7 @@ function FooterSr() {
                 rel="noopener noreferrer"
                 className="hover:text-green-400"
               >
-                Contact Us
+                संपर्क
               </a>
             </li>
             <li>
@@ -45,7 +45,7 @@ function FooterSr() {
                 rel="noopener noreferrer"
                 className="hover:text-green-400"
               >
-                Donation
+                देणगी / सहकार्य
               </a>
             </li>
           </ul>
