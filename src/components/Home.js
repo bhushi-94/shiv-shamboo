@@ -16,6 +16,9 @@ import Mission from "./Mission";
 import TempleInfo from "./TempleInfo";
 import FooterSr from "./FooterSr";
 import HeroImage from "./HeroImage";
+import ActivityServices from "./ActivityServices";
+import ReligiousFunctions from "./ReligiousFunctions";
+import Trustee from "./Trustee";
 
 function Home() {
   const timer = useRef();
@@ -157,6 +160,16 @@ function Home() {
 
       {/* Temple Info Section */}
       <TempleInfo />
+
+      {/* ActivityServices */}
+      <ActivityServices />
+
+      {/* ReligiousFunctions */}
+      <ReligiousFunctions />
+
+      {/* Trustee */}
+      <Trustee />
+
       <div> .</div>
 
       {/* Footer Section */}
