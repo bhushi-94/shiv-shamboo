@@ -5,7 +5,7 @@ import {
   FaFacebookF,
 } from "react-icons/fa";
 // import logo from "../images/Sample-1.jpg"; // your logo in src/images/logo.png
-import logo from "../images/Hero-Photo.jpg"; // your logo in src/images/logo.png
+import logo from "../images/logoMain.png"; // your logo in src/images/logo.png
 
 function Header() {
   // fixed top-0 left-0 w-full

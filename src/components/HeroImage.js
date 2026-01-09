@@ -6,7 +6,7 @@
 //       <img
 //         src={MainImg}
 //         alt="Hero"
-//         className="w-full h-[120vh] md:h-[120vh] lg:h-[120vh] object-cover rounded-lg"
+//         className="w-full h-auto object-contain rounded-lg"
 //       />
 //     </div>
 //   );
@@ -14,14 +14,18 @@
 
 // export default HeroImage;
 
+import { motion } from "framer-motion";
 import MainImg from "../images/Hero-Photo-Alt.jpg";
 
 function HeroImage() {
   return (
     <div className="pt-8 px-4 md:pt-10 md:px-8 lg:pt-16 lg:px-16">
-      <img
+      <motion.img
         src={MainImg}
         alt="Hero"
+        initial={{ scale: 0.96, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
         className="w-full h-auto object-contain rounded-lg"
       />
     </div>
