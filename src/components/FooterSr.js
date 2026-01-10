@@ -25,7 +25,7 @@ function FooterSr() {
                 rel="noopener noreferrer"
                 className="hover:text-green-400"
               >
-                आमच्याविषयी
+                आमच्या विषयी
               </a>
             </li>
             <li>
