@@ -5,7 +5,7 @@ import {
   FaFacebookF,
 } from "react-icons/fa";
 // import logo from "../images/Sample-1.jpg"; // your logo in src/images/logo.png
-import logo from "../images/logoMain.png"; // your logo in src/images/logo.png
+import logo from "../images/Hero-Photo.jpg"; // your logo in src/images/logo.png
 
 function Header() {
   // fixed top-0 left-0 w-full
@@ -17,7 +17,7 @@ function Header() {
         <img src={logo} alt="Logo" className="h-10 md:h-12" />
         {/* <span className="ml-2 font-bold text-xl md:text-2xl text-gray-800"> */}
         <span className="ml-2 font-bold text-xl md:text-2xl text-orange-500">
-          Shri Shiv Shamboo Charitable Trust
+          श्री शिव शंभो चॅरिटेबल ट्रस्ट
         </span>
       </div>
 
