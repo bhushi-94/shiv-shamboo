@@ -1,7 +1,7 @@
 import Header from "./Header";
 import HeroImage from "./HeroImage";
 import FooterSr from "./FooterSr";
-import templeImg from "../images/WideImage.jpg";
+import templeImg from "../images/logoMain.png";
 
 function ContactUs() {
   const location = {

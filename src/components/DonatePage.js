@@ -37,7 +37,8 @@ function DonatePage() {
 
             <ul className="space-y-3 text-gray-800">
               <li>
-                <strong>Account Name:</strong> Shri Mahadev Seva Trust
+                <strong>Account Name:</strong> Shri Shiv Shambho Charitable
+                Trust
               </li>
               <li>
                 <strong>Bank Name:</strong> Saraswat Bank

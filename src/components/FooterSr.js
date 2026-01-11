@@ -112,7 +112,7 @@ function FooterSr() {
               shreeshivshambhomandir@gmail.com
             </a>
           </p>
-          <p className="text-sm mt-2">Phone: +91-123-456-7890</p>
+          <p className="text-sm mt-2">Phone: +91-9967060692 / +91-9152735377</p>
         </div>
       </div>
 
