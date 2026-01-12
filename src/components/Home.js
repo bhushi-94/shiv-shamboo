@@ -19,6 +19,7 @@ import HeroImage from "./HeroImage";
 import ActivityServices from "./ActivityServices";
 import ReligiousFunctions from "./ReligiousFunctions";
 import Trustee from "./Trustee";
+import VideoDiv from "./VideoDiv";
 
 function Home() {
   const timer = useRef();
@@ -163,6 +164,9 @@ function Home() {
 
       {/* ActivityServices */}
       <ActivityServices />
+
+      {/* VideoDiv */}
+      <VideoDiv />
 
       {/* ReligiousFunctions */}
       <ReligiousFunctions />
