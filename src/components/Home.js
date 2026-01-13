@@ -166,7 +166,7 @@ function Home() {
       <ActivityServices />
 
       {/* VideoDiv */}
-      <VideoDiv />
+      {/* <VideoDiv /> */}
 
       {/* ReligiousFunctions */}
       <ReligiousFunctions />
